@@ -22,10 +22,10 @@ func main() {
 
 	fmt.Println("len:", len(m))
 
-	delete(m, "k2")
+	//delete(m, "k2")
 	fmt.Println("map:", m)
 
-	clear(m)
+	//clear(m)
 	fmt.Println("map:", m)
 
 	i, prs := m["k2"]

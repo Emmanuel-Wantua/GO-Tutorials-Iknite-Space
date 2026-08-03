@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	nums := []int{2, 3, 4}
+	nums := []int{2, 4, 3}
 	sum := 0
 	for _, num := range nums {
 		sum += num
@@ -26,7 +26,7 @@ func main() {
 		fmt.Println("key:", k)
 	}
 
-	for i, c := range "go" {
+	for i, c := range "go1" {
 		fmt.Println(i, c)
 	}
 }

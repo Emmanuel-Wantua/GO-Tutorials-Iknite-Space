@@ -28,5 +28,5 @@ func countWords(s string) map[string]int {
 }
 
 func main() {
-	fmt.Println(countWords("My name is Emmanuel but my full names are Emmanuel Wantua"))
+	fmt.Println(countWords("My name is Emmanuel but my full names are Emmanuel Wantua although I love to be called just Emmanuel but my friends call me Emmy and I love it"))
 }
